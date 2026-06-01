@@ -1,11 +1,12 @@
 name: Resuable Workflow
 on:
   workflow_call:
-    jobs:
-        reusable_workflow:
-            runs-on: ubuntu-latest
-            steps:
-                - name: Resuable Workflow
-                  run: echo "This is a reusable workflow" 
+    
+jobs:
+    reusable_workflow:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Resuable Workflow
+              run: echo "Welcome to the reusable workflow" 
             
 
